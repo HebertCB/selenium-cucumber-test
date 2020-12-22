@@ -23,7 +23,7 @@ public class Hook {
 	@Before
 	public void setupClass() {
             log.info("DRIVER SETTING UP...");
-            System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "/usr/downloads/chromedriver");
             driver = new ChromeDriver();
             driver.manage().window().maximize();
 	}
