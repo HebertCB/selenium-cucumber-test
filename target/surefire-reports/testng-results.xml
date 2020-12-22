@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner" duration-ms="42162" started-at="2020-12-09T15:40:52Z" finished-at="2020-12-09T15:41:34Z">
+  <suite name="Surefire suite" duration-ms="51648" started-at="2020-12-22T17:31:42Z" finished-at="2020-12-22T17:32:33Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@2c6a3f77]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@1cd072a9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Command line test" duration-ms="42162" started-at="2020-12-09T15:40:52Z" finished-at="2020-12-09T15:41:34Z">
+    <test name="Surefire test" duration-ms="51648" started-at="2020-12-22T17:31:42Z" finished-at="2020-12-22T17:32:33Z">
       <class name="pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@2c6a3f77]" name="setUpClass" is-config="true" duration-ms="779" started-at="2020-12-09T10:40:52Z" finished-at="2020-12-09T10:40:53Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@1cd072a9]" name="setUpClass" is-config="true" duration-ms="797" started-at="2020-12-22T12:31:42Z" finished-at="2020-12-22T12:31:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@2c6a3f77]" name="runScenario" duration-ms="15398" started-at="2020-12-09T10:40:53Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-09T10:41:08Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@1cd072a9]" name="runScenario" duration-ms="17767" started-at="2020-12-22T12:31:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-22T12:32:00Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@2c6a3f77]" name="runScenario" duration-ms="12414" started-at="2020-12-09T10:41:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-09T10:41:21Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@1cd072a9]" name="runScenario" duration-ms="15356" started-at="2020-12-22T12:32:00Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-22T12:32:16Z">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@2c6a3f77]" name="runScenario" duration-ms="13418" started-at="2020-12-09T10:41:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-09T10:41:34Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@1cd072a9]" name="runScenario" duration-ms="17457" started-at="2020-12-22T12:32:16Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-22T12:32:33Z">
           <params>
             <param index="0">
               <value>
@@ -62,11 +62,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@2c6a3f77]" name="tearDownClass" is-config="true" duration-ms="126" started-at="2020-12-09T10:41:34Z" finished-at="2020-12-09T10:41:34Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@1cd072a9]" name="tearDownClass" is-config="true" duration-ms="244" started-at="2020-12-22T12:32:33Z" finished-at="2020-12-22T12:32:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner -->
-    </test> <!-- Command line test -->
-  </suite> <!-- pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
