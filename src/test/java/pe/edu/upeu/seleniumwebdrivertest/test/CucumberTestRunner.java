@@ -8,9 +8,22 @@ package pe.edu.upeu.seleniumwebdrivertest.test;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-@CucumberOptions(features="src/test/resources/features/busqueda.feature", glue={"pe.edu.upeu.seleniumwebdrivertest.steps"},
+//@CucumberOptions(features="src/test/resources/features/busqueda.feature", glue={"pe.edu.upeu.seleniumwebdrivertest.steps"},
+//        monochrome=true,
+//        plugin={"pretty","html:target/HtmlReports/TestReport.html"})
+@CucumberOptions(
+        features = {
+            "src/test/resources/features/busqueda.feature"
+        },
+        glue = {
+            "pe.edu.upeu.seleniumwebdrivertest.steps"
+        },
         monochrome=true,
-        plugin={"pretty","html:target/HtmlReports/TestReport.html"})
+        plugin = {
+            "pretty",
+            "html:results/html",
+            "json:results/json/result.json"
+        })
 public class CucumberTestRunner extends AbstractTestNGCucumberTests{
     
 }
