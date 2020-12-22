@@ -28,7 +28,7 @@ public class SeleniumTestEjemplo {
     
     @BeforeClass
     public void beforeClass() throws Exception {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
         driver = new ChromeDriver();
         log.info("Driver de chrome cargado.");
         
