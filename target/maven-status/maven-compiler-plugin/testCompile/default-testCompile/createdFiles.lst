@@ -1,0 +1,6 @@
+pe\edu\upeu\seleniumwebdrivertest\test\CucumberTestRunner.class
+pe\edu\upeu\seleniumwebdrivertest\steps\Hook.class
+pe\edu\upeu\seleniumwebdrivertest\steps\BusquedaSteps.class
+pe\edu\upeu\seleniumwebdrivertest\test\SeleniumTestEjemplo.class
+pe\edu\upeu\seleniumwebdrivertest\pages\BasePage.class
+pe\edu\upeu\seleniumwebdrivertest\pages\BusquedaPage.class

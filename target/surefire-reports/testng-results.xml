@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner" duration-ms="42162" started-at="2020-12-09T15:40:52Z" finished-at="2020-12-09T15:41:34Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@2c6a3f77]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="42162" started-at="2020-12-09T15:40:52Z" finished-at="2020-12-09T15:41:34Z">
+      <class name="pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@2c6a3f77]" name="setUpClass" is-config="true" duration-ms="779" started-at="2020-12-09T10:40:52Z" finished-at="2020-12-09T10:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@2c6a3f77]" name="runScenario" duration-ms="15398" started-at="2020-12-09T10:40:53Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-09T10:41:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Busqueda de blusas"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Busqueda]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@2c6a3f77]" name="runScenario" duration-ms="12414" started-at="2020-12-09T10:41:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-09T10:41:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Busqueda de blusas"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Busqueda]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@2c6a3f77]" name="runScenario" duration-ms="13418" started-at="2020-12-09T10:41:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-09T10:41:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Busqueda de blusas"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Busqueda]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner@2c6a3f77]" name="tearDownClass" is-config="true" duration-ms="126" started-at="2020-12-09T10:41:34Z" finished-at="2020-12-09T10:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner -->
+</testng-results>
