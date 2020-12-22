@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 52.569 sec - in pe.edu.upeu.seleniumwebdrivertest.test.CucumberTestRunner
